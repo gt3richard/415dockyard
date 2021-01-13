@@ -1,28 +1,49 @@
 <template>
   <div class="footerbar navbar-dark bg-dark">
     <div class="container">
-      <div class="row">
-        <div class="col">
-          <span>Questions? Contact Us at</span><br /><br />
+
+      <div class="row logo">
+        <div class="col-4 img">
+          <img src="/static/logo.png">
         </div>
-      </div>
-      <div class="row">
-        <div class="col">
-          415dockyard@gmail.com
+
+        <div class="col-4">
+          <div class="row">
+            <div class="col header">
+              Questions? Contact Us at
+            </div>
+          </div>
+          <div class="row">
+            <div class="col fineprint">
+              415dockyard@gmail.com
+            </div>
+          </div>
         </div>
+
+        <div class="col-4">
+          <div class="row">
+            <div class="col header">
+              Company
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <div class="row">
+                <a class="link fineprint" href="/doc/terms">Terms and Conditions</a>
+              </div>
+              <div class="row">
+                <a class="link fineprint" href="/doc/privacy">Privacy Policy</a>
+              </div>
+              <div class="row">
+                <a class="link fineprint" href="/doc/sitemap">Sitemap</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
       </div>
 
-      <div class="row justify-content-center py-4">
-        <div class="col-sm-3 col-md-2 fineprint">
-          <a class="link" href="/doc/terms">Terms and Conditions</a>
-        </div>
-        <div class="col-sm-3 col-md-2 fineprint">
-          <a class="link" href="/doc/privacy">Privacy Policy</a>
-        </div>
-        <div class="col-sm-3 col-md-2 fineprint">
-          <a class="link" href="/doc/sitemap">Sitemap</a>
-        </div>
-      </div>
+
     </div>
   </div>
 </template>
@@ -53,9 +74,24 @@ export default {
 .footerbar, a:link, a:visited, a:hover, a:active {
   color: white;
 }
+.col {
+  text-align: left;
+}
+a {
+  padding-left: 15px;
+}
+.header {
+  padding-bottom: 1em;
+}
 .fineprint {
-  font-size: 0.7em;
-  white-space: nowrap;
-  font-weight: 500;
+  font-size: .7em;
+}
+.logo {
+  margin: 1em;
+}
+.logo img {
+  max-height: 150px;
+  max-width: 100%;
+  padding: 1em;
 }
 </style>

@@ -4,27 +4,27 @@
         "url": "https://snoozedata.com",
         "description": "Easily create RESTFul APIs from simple CSV files.",
         "logo": "../static/profile/snoozedata.png",
-        "tint": "rgba(0,0,255,0.2)"
+        "tint": "rgba(0,0,255,0.8)"
     },
     "savethatbox": {
         "name": "Save That Box",
         "url": "https://savethatbox.com",
         "description": "Find retails with the best return policy for your online shopping.",
         "logo": "../static/profile/savethatbox.png",
-        "tint": "rgba(255,255,0,0.2)"
+        "tint": "rgba(255,255,0,0.8)"
     },
     "secondrefill": {
         "name": "Second Refill",
         "url": "https://secondrefill.com",
         "description": "Take a second look at your personal finance.",
         "logo": "../static/profile/secondrefill.png",
-        "tint": "rgba(0,255,0,0.2)"
+        "tint": "rgba(0,255,0,0.8)"
     },
     "415lens": {
         "name": "415Lens",
         "url": "https://415lens.com",
         "description": "Photography studio.",
         "logo": "../static/profile/415lens.png",
-        "tint": "rgba(255,0,0,0.2)"
+        "tint": "rgba(255,0,0,0.8)"
     }
 }

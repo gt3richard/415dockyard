@@ -1,14 +1,15 @@
 <template>
   <div class="profile body" :style="{ 
-    'background-image': 'linear-gradient(' + profile.tint+','+ profile.tint+'), url(\'/static/shippingcontainer.png\')'
+    'background-image': 'linear-gradient(' + profile.tint+','+ profile.tint+')'
     }">
     <div class="container">
       
       <div class="row info bg-dark align-items-center">
+
         <div class="col-4 img">
           <img :src="profile.logo">
         </div>
-        <div class="col-8">
+        <div class="col-6">
 
           <div class="row name">
             <div class="col-12">
@@ -58,9 +59,12 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 .profile {
-  background-size: contain;
   padding-top: 2.5em;
   padding-bottom: 2.5em;
+}
+.ship {
+  height: 100px;
+  width: 100px;
 }
 .info {
   margin: 1em;
