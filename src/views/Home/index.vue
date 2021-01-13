@@ -2,7 +2,10 @@
   <div class="home body">
     <NavBar id="top"/>
     <div class="container">
-      HomePage
+      <Profile :name="'snoozedata'" />
+      <Profile :name="'savethatbox'" />
+      <Profile :name="'secondrefill'" />
+      <Profile :name="'415lens'" />
     </div>
     <FooterBar />
   </div>
@@ -12,11 +15,14 @@
 import NavBar from "../../components/bars/NavBar";
 import FooterBar from "../../components/bars/FooterBar";
 
+import Profile from "../../components/Profile";
+
 export default {
   name: "Home",
   components: {
     NavBar,
     FooterBar,
+    Profile
   },
   created() {
     this.track();

@@ -1,9 +1,12 @@
 <template>
   <div>
-    <nav class="navbar">
-      <a class="navbar-brand" href="/">
-        <h1>415 Dockyard</h1>
-      </a>
+    <nav class="navbar navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/">
+          <img src="/static/logo.png" alt="" width="60" height="48" class="d-inline-block align-top"/>
+          <span>415Dockyard</span>
+        </a>
+      </div>
     </nav>
     
   </div>
@@ -12,29 +15,13 @@
 <script>
 export default {
   name: "NavBar",
-  components: { },
-  props: [],
-  data() {
-    return {
-    };
-  },
 };
 </script>
 
 <style scoped>
-.list-group-item,
-.navbar-toggler {
-  background-color: inherit;
-  border: 0;
-  padding: 0.5em;
-}
-.btn {
-  font-size: 1em;
-  font-weight: 600;
-}
-.btn:active,
-.btn:focus {
-  outline: none !important;
-  box-shadow: none;
+.navbar-brand {
+  font-size: 2em;
+  font-family: Helvetica Neue;
+  font-weight: bold;
 }
 </style>

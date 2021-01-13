@@ -1,27 +1,14 @@
 <template>
-  <div class="footerbar">
+  <div class="footerbar navbar-dark bg-dark">
     <div class="container">
       <div class="row">
         <div class="col">
-          <span>Can't find what you're looking for?</span><br /><br />
+          <span>Questions? Contact Us at</span><br /><br />
         </div>
       </div>
       <div class="row">
         <div class="col">
-          <a
-            class="link"
-            href="mailto:415dockyard@gmail.com"
-            v-on:click="track()"
-            >415dockyard@gmail.com</a
-          >
-        </div>
-      </div>
-      <div class="row">
-        <div class="col">
-          <span
-            >Help us improve this list. Email us with your store's return
-            experience.</span
-          >
+          415dockyard@gmail.com
         </div>
       </div>
 
@@ -59,9 +46,12 @@ export default {
 
 <style scoped>
 .footerbar {
-  margin-top: 2em;
   padding: 3em;
   font-weight: 600;
+  color: white;
+}
+.footerbar, a:link, a:visited, a:hover, a:active {
+  color: white;
 }
 .fineprint {
   font-size: 0.7em;
