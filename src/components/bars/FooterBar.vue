@@ -3,6 +3,7 @@
     <div class="container">
 
       <div class="row logo">
+        
         <div class="col-4 img">
           <img src="/static/logo.png">
         </div>
@@ -16,6 +17,11 @@
           <div class="row">
             <div class="col fineprint">
               415dockyard@gmail.com
+            </div>
+          </div>
+          <div class="row">
+            <div class="col fineprint attribution">
+              <div>Icon by <a href="https://www.flaticon.com/authors/pause08" title="Pause08">Pause08</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
             </div>
           </div>
         </div>
@@ -77,7 +83,7 @@ export default {
 .col {
   text-align: left;
 }
-a {
+.link {
   padding-left: 15px;
 }
 .header {
@@ -86,12 +92,20 @@ a {
 .fineprint {
   font-size: .7em;
 }
-.logo {
-  margin: 1em;
+.attribution {
+  padding-top: .5em;
 }
 .logo img {
   max-height: 150px;
   max-width: 100%;
-  padding: 1em;
+}
+@media (min-width: 768px) {
+  .logo {
+    margin: 1em;
+  }
+  .logo img {
+
+    padding: 1em;
+  }
 }
 </style>
