@@ -36,15 +36,19 @@ export default {
   methods: {
     track() {
       // eslint-disable-next-line
-      gtag("config", "UA-170201347-1", {
-        page_title: "home:doc:" + this.page,
-        page_location: window.location.host,
-        page_path: "/doc/" + this.page,
-      });
+      // gtag("config", "UA-170201347-1", {
+      //   page_title: "home:doc:" + this.page,
+      //   page_location: window.location.host,
+      //   page_path: "/doc/" + this.page,
+      // });
     },
   },
 };
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped></style>
+<style scoped>
+.container {
+  background-color: white !important;
+}
+</style>

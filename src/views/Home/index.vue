@@ -32,11 +32,11 @@ export default {
   methods: {
     track() {
       // eslint-disable-next-line
-      gtag("config", "UA-170201347-1", {
-        page_title: "home",
-        page_location: window.location.host,
-        page_path: "/",
-      });
+      // gtag("config", "UA-170201347-1", {
+      //   page_title: "home",
+      //   page_location: window.location.host,
+      //   page_path: "/",
+      // });
     },
   },
 };

@@ -57,9 +57,9 @@ export default {
   methods: {
     track: function (event) {
       // eslint-disable-next-line
-      gtag("event", "contact", {
-        event_category: "engagement",
-      });
+      // gtag("event", "contact", {
+      //   event_category: "engagement",
+      // });
     },
   },
 };
