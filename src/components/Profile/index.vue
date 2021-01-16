@@ -6,10 +6,10 @@
       
       <div class="row info bg-dark align-items-center">
 
-        <div class="col-4 img">
+        <div class="col-sm col-md-4 img">
           <img :src="profile.logo">
         </div>
-        <div class="col-6">
+        <div class="col-sm col-md-6">
 
           <div class="row name">
             <div class="col-12">

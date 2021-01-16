@@ -4,19 +4,19 @@
 
       <div class="row logo">
         
-        <div class="col-4 img">
+        <div class="col-sm col-md-4 img">
           <img src="/static/logo.png">
         </div>
 
-        <div class="col-4">
+        <div class="col-sm col-md-4">
           <div class="row">
             <div class="col header">
-              Questions? Contact Us at
+              Questions?
             </div>
           </div>
           <div class="row">
             <div class="col fineprint">
-              415dockyard@gmail.com
+              Contact us 415dockyard@gmail.com
             </div>
           </div>
           <div class="row">
@@ -26,7 +26,7 @@
           </div>
         </div>
 
-        <div class="col-4">
+        <div class="col-sm col-md-4">
           <div class="row">
             <div class="col header">
               Company
@@ -87,6 +87,7 @@ export default {
   padding-left: 15px;
 }
 .header {
+  padding-top: 1em;
   padding-bottom: 1em;
 }
 .fineprint {
@@ -98,14 +99,5 @@ export default {
 .logo img {
   max-height: 150px;
   max-width: 100%;
-}
-@media (min-width: 768px) {
-  .logo {
-    margin: 1em;
-  }
-  .logo img {
-
-    padding: 1em;
-  }
 }
 </style>
